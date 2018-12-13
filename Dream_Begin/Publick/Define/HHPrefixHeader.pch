@@ -1,0 +1,60 @@
+//
+//  HHPrefixHeader.pch
+//  Dream_Begin
+//
+//  Created by hanhong on 2018/4/9.
+//  Copyright © 2018年 hanhong. All rights reserved.
+//
+//
+//                            _ooOoo_
+//                           o8888888o
+//                           88" . "88
+//                           (| -_- |)
+//                            O\ = /O
+//                        ____/`---'\____
+//                      .   ' \\| |// `.
+//                       / \\||| : |||// \
+//                     / _||||| -:- |||||- \
+//                       | | \\\ - /// | |
+//                     | \_| ''\---/'' | |
+//                      \ .-\__ `-` ___/-. /
+//                   ___`. .' /--.--\ `. . __
+//                ."" '< `.___\_<|>_/___.' >'"".
+//               | | : `- \`.;`\ _ /`;.`/ - ` : | |
+//                 \ \ `-. \_ __\ /__ _/ .-` / /
+//         ======`-.____`-.___\_____/___.-`____.-'======
+//                            `=---='
+//
+//         .............................................
+
+#ifndef HHPrefixHeader_pch
+#define HHPrefixHeader_pch
+
+//全局宏
+#import "UtilsMacros.h"
+#import "URLMacros.h"
+#import "CommonMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+
+//基础类
+#import "AppDelegate.h"
+#import "AppDelegate+HHAppService.h"
+#import "HHNetworkHelper.h"
+#import "HHUserManager.h"
+#import "MBProgressHUD+HHXY.h"
+#import "UIView+SAMExtension.h"
+#import "HHRootViewController.h"
+#import "HHRootNavigationController.h"
+#import "HHAppManager.h"
+#import "HHPromptBox.h"
+#import "UIDevice+HHPopViewExtension.h"
+
+//第三方
+#import "YYKit.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "MBProgressHUD.h"
+#import "Masonry.h"
+
+
+#endif /* HHPrefixHeader_pch */

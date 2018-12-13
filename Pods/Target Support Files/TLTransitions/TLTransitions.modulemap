@@ -1,0 +1,6 @@
+framework module TLTransitions {
+  umbrella header "TLTransitions-umbrella.h"
+
+  export *
+  module * { export * }
+}
